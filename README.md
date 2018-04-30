@@ -228,12 +228,12 @@
 
     **Bad**
     ```php
-    Route::patch('/meta/access-control/role/assign-pages', 'RoleController@assignPages')->name('meta.access-control.role.assign-pages');
+    Route::patch('/meta/access-control/role/assign-pages', 'RoleController@assignPages');
     ```
 
     **Good**
     ```php
-    Route::patch('/meta/access-control/ajax/role/assign-pages', 'RoleController@assignPages')->name('meta.access-control.role.assign-pages');
+    Route::patch('/meta/access-control/ajax/role/assign-pages', 'RoleController@assignPages');
     ```
 
 ## Arrays
